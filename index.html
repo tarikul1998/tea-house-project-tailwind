@@ -30,7 +30,7 @@
 <body>
     <main class="max-w-4xl mx-auto">
        
-        <header class="lg:flex pt-10 mb-32">
+        <header class="lg:flex pt-10 mb-32 hidden">
           <!-- text-content -->
            <section>
               <h1 class="text-5xl md:text-7xl">It's good <br>tea time at The Tea House</h1>    
@@ -59,7 +59,7 @@
         </header>
 
       <!-- Featured Products Section -->
-        <section class="py-8 lg:py-24">
+        <section class="py-8 lg:py-24 hidden">
           <!-- 1st Box -->
             <div class="text-center">
               <h1 class="mb-5 text-3xl md:text-4xl font-bold"> Our Featured Products</h1>
@@ -108,7 +108,7 @@
 
 
         <!-- Great Tea Section -->
-        <section class="mb-2">
+        <section class="mb-24 hidden">
               <div class="grid grid-cols-1 lg:grid-cols-2">
                     <!-- Image Section -->
                      <div class="grid grid-cols-2 grid-rows-3 gap-4 lg:w-5/6">
@@ -132,6 +132,37 @@
                        <p class="text-gray-500">Premium Quality that makes tea more elegant and more durable when you use it.</p>
                   </div>
               </div>
+        </section>
+
+        <!-- Review Section -->
+        <section class="mb-24">
+            <div class="px-7 md:px-16 text-white grid grid-cols-1 lg:grid-cols-2 bg-gradient-to-r from-orange-500 to-red-500 rounded-xl">
+            
+              <!-- 1st part text section-->
+              <div class="w-5/6">
+                <h1 class="text-5xl font-bold mt-5 mb-10">Meet Our Super <br> Clients</h1>
+                <p class="mb-5">There are many variations of passages of Lorem Ipsum available,
+                  but the majority have suffered alteration in some form, by
+                  injected humour, or randomised words which don't look even
+                  slightly believable.</p>
+                <button class="bg-white text-orange-700 px-3 py-2 rounded-lg">Show All</button>
+              </div>
+           
+              <!-- 2nd part review card section -->
+               <div class="relative py-24">
+                    <!-- top card -->
+                     <div class="relative h-56 bg-white text-black rounded-xl w-full lg:w-3/4 flex items-center px-4">
+                            <div class="absolute -top-5 -left-5 bg-white rounded-full"><img class="p-1" src="images/client.png" alt=""></div>
+                            <div class="ml-5">
+                                <p class="text-gray-500 mb-3">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                                <h1 class="font-bold">Ilham Yuda</h1>
+                                <small class="font-bold text-gray-500">Businessman</small>
+                            </div>
+                     </div>
+               </div>
+              
+            </div>
+                
         </section>
   
     </main>
