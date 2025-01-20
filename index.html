@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chaa</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tea House</title>
     <!-- Google font cdn -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
     <!-- Fontawesome cdn -->
-      <script
+    <script
       src="https://kit.fontawesome.com/bbfc4be646.js"
       crossorigin="anonymous"
     ></script>
@@ -22,12 +25,15 @@
             colors: {
               clifford: '#da373d',
             },
+          fontFamily:{
+            'manrope':['Manrope', 'sans-serif'],
+          } 
           },
         },
       }
     </script>
-</head>
-<body>
+  </head>
+<body class="font-manrope">
     <main class="max-w-4xl mx-auto">
        
         <header class="lg:flex pt-10 mb-32">
@@ -167,5 +173,17 @@
   
     </main>
     
+    <footer class="bg-orange-100 text-gray-700 py-10 px-4 md:px-16">
+          <div class="w-9/12 mx-auto">
+                <!-- 1st logo -->
+                <div class="mb-8 flex justify-between">
+                    <img class="mb-8" src="images/cup.png" alt="">
+                    <div class="flex items-center gap-2">
+                        <h4>Ready to get strated?</h4>
+                        <button class="bg-gradient-to-r from-orange-500 to-red-500 px-3 py-2 rounded-lg text-white font-bold">Get Started</button>
+                    </div>
+                </div>
+          </div>
+    </footer>
 </body>
 </html>
